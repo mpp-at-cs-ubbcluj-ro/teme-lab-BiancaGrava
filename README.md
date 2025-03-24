@@ -3,4 +3,5 @@ Starting with GitHub and IntelliJ
 
 Folosind IntelliJ, descarcati acest proiect pe calculatorul personal, adaugati o clasa  Java care tipareste un mesaj la consola si actualizati fisierele din repository-ul corespunzator.
 
-second commit - tema1 in timpul laboratorului
+second commit = tema1 in timpul laboratorului
+Laboator2, tema in timpul laboratorului = tema2 in timpul laboratorului
