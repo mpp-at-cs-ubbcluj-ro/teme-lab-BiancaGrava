@@ -1,0 +1,211 @@
+10 Mar 2025 11:11:16,293 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {} 
+10 Mar 2025 11:11:16,302 TRACE CarsDBRepository 74 add - Enter add - saving taskId=0 Tesla Model S 2019
+10 Mar 2025 11:11:16,302 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:11:16,303 TRACE JdbcUtils 23 getNewConnection - Enter
+10 Mar 2025 11:11:16,303 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... null
+10 Mar 2025 11:11:16,303 INFO  JdbcUtils 29 getNewConnection - user: null
+10 Mar 2025 11:11:16,303 INFO  JdbcUtils 30 getNewConnection - pass: null
+10 Mar 2025 11:11:16,305 ERROR JdbcUtils 39 getNewConnection - java.sql.SQLException: The url cannot be null
+10 Mar 2025 11:11:16,305 TRACE JdbcUtils 55 getConnection - Exit
+10 Mar 2025 11:11:45,169 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {} 
+10 Mar 2025 11:11:45,178 TRACE CarsDBRepository 74 add - Enter add - saving taskId=0 Tesla Model S 2019
+10 Mar 2025 11:11:45,178 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:11:45,178 TRACE JdbcUtils 23 getNewConnection - Enter
+10 Mar 2025 11:11:45,179 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... null
+10 Mar 2025 11:11:45,179 INFO  JdbcUtils 29 getNewConnection - user: null
+10 Mar 2025 11:11:45,179 INFO  JdbcUtils 30 getNewConnection - pass: null
+10 Mar 2025 11:11:45,180 ERROR JdbcUtils 39 getNewConnection - java.sql.SQLException: The url cannot be null
+10 Mar 2025 11:11:45,181 TRACE JdbcUtils 55 getConnection - Exit
+10 Mar 2025 11:11:56,897 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {} 
+10 Mar 2025 11:11:56,906 TRACE CarsDBRepository 74 add - Enter add - saving taskId=0 Tesla Model S 2019
+10 Mar 2025 11:11:56,906 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:11:56,906 TRACE JdbcUtils 23 getNewConnection - Enter
+10 Mar 2025 11:11:56,907 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... null
+10 Mar 2025 11:11:56,907 INFO  JdbcUtils 29 getNewConnection - user: null
+10 Mar 2025 11:11:56,907 INFO  JdbcUtils 30 getNewConnection - pass: null
+10 Mar 2025 11:11:56,908 ERROR JdbcUtils 39 getNewConnection - java.sql.SQLException: The url cannot be null
+10 Mar 2025 11:11:56,909 TRACE JdbcUtils 55 getConnection - Exit
+10 Mar 2025 11:21:35,520 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:\2025_1\UBB\MPP\spectacole.db} 
+10 Mar 2025 11:21:35,528 TRACE CarsDBRepository 74 add - Enter add - saving taskId=0 Mercedes CLS 2023
+10 Mar 2025 11:21:35,529 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:21:35,529 TRACE JdbcUtils 23 getNewConnection - Enter
+10 Mar 2025 11:21:35,529 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\2025_1\UBB\MPP\spectacole.db
+10 Mar 2025 11:21:35,529 INFO  JdbcUtils 29 getNewConnection - user: null
+10 Mar 2025 11:21:35,530 INFO  JdbcUtils 30 getNewConnection - pass: null
+10 Mar 2025 11:21:36,245 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@82de64a)
+10 Mar 2025 11:21:36,251 ERROR CarsDBRepository 83 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+10 Mar 2025 11:21:36,252 TRACE CarsDBRepository 86 add - Exit
+10 Mar 2025 11:21:36,252 TRACE CarsDBRepository 91 update - Enter update - updating car with id 1
+10 Mar 2025 11:21:36,252 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:21:36,253 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@82de64a)
+10 Mar 2025 11:21:36,253 ERROR CarsDBRepository 102 update - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+10 Mar 2025 11:21:36,253 TRACE CarsDBRepository 109 findAll - Enter
+10 Mar 2025 11:21:36,254 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:21:36,254 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@82de64a)
+10 Mar 2025 11:21:36,254 ERROR CarsDBRepository 125 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars.db)
+10 Mar 2025 11:21:36,254 TRACE CarsDBRepository 128 findAll - Exit with([])
+10 Mar 2025 11:21:36,255 TRACE CarsDBRepository 49 findBetweenYears - Enter
+10 Mar 2025 11:21:36,255 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:21:36,255 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@82de64a)
+10 Mar 2025 11:21:36,255 ERROR CarsDBRepository 65 findBetweenYears - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars.db)
+10 Mar 2025 11:21:36,256 TRACE CarsDBRepository 68 findBetweenYears - Exit with([])
+10 Mar 2025 11:22:20,206 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:\2025_1\UBB\MPP\spectacole.db} 
+10 Mar 2025 11:22:20,215 TRACE CarsDBRepository 74 add - Enter add - saving taskId=0 Mercedes CLS 2023
+10 Mar 2025 11:22:20,215 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:22:20,216 TRACE JdbcUtils 23 getNewConnection - Enter
+10 Mar 2025 11:22:20,216 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\2025_1\UBB\MPP\spectacole.db
+10 Mar 2025 11:22:20,216 INFO  JdbcUtils 29 getNewConnection - user: null
+10 Mar 2025 11:22:20,216 INFO  JdbcUtils 30 getNewConnection - pass: null
+10 Mar 2025 11:22:20,398 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@82de64a)
+10 Mar 2025 11:22:20,404 ERROR CarsDBRepository 83 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars.db)
+10 Mar 2025 11:22:20,406 TRACE CarsDBRepository 86 add - Exit
+10 Mar 2025 11:22:20,406 TRACE CarsDBRepository 91 update - Enter update - updating car with id 1
+10 Mar 2025 11:22:20,406 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:22:20,407 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@82de64a)
+10 Mar 2025 11:22:20,408 ERROR CarsDBRepository 102 update - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars.db)
+10 Mar 2025 11:22:20,409 TRACE CarsDBRepository 109 findAll - Enter
+10 Mar 2025 11:22:20,409 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:22:20,409 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@82de64a)
+10 Mar 2025 11:22:20,410 ERROR CarsDBRepository 125 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars.db)
+10 Mar 2025 11:22:20,410 TRACE CarsDBRepository 128 findAll - Exit with([])
+10 Mar 2025 11:22:20,410 TRACE CarsDBRepository 49 findBetweenYears - Enter
+10 Mar 2025 11:22:20,410 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:22:20,411 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@82de64a)
+10 Mar 2025 11:22:20,411 ERROR CarsDBRepository 65 findBetweenYears - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars.db)
+10 Mar 2025 11:22:20,412 TRACE CarsDBRepository 68 findBetweenYears - Exit with([])
+10 Mar 2025 11:22:57,105 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:\2025_1\UBB\MPP\spectacole.db} 
+10 Mar 2025 11:22:57,114 TRACE CarsDBRepository 74 add - Enter add - saving taskId=0 Mercedes CLS 2023
+10 Mar 2025 11:22:57,114 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:22:57,114 TRACE JdbcUtils 23 getNewConnection - Enter
+10 Mar 2025 11:22:57,115 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\2025_1\UBB\MPP\spectacole.db
+10 Mar 2025 11:22:57,115 INFO  JdbcUtils 29 getNewConnection - user: null
+10 Mar 2025 11:22:57,115 INFO  JdbcUtils 30 getNewConnection - pass: null
+10 Mar 2025 11:22:57,295 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6253c26)
+10 Mar 2025 11:22:57,299 ERROR CarsDBRepository 83 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: spectacole.db)
+10 Mar 2025 11:22:57,300 TRACE CarsDBRepository 86 add - Exit
+10 Mar 2025 11:22:57,300 TRACE CarsDBRepository 91 update - Enter update - updating car with id 1
+10 Mar 2025 11:22:57,300 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:22:57,301 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6253c26)
+10 Mar 2025 11:22:57,301 ERROR CarsDBRepository 102 update - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: spectacole.db)
+10 Mar 2025 11:22:57,302 TRACE CarsDBRepository 109 findAll - Enter
+10 Mar 2025 11:22:57,302 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:22:57,303 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6253c26)
+10 Mar 2025 11:22:57,303 ERROR CarsDBRepository 125 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: spectacole.db)
+10 Mar 2025 11:22:57,303 TRACE CarsDBRepository 128 findAll - Exit with([])
+10 Mar 2025 11:22:57,304 TRACE CarsDBRepository 49 findBetweenYears - Enter
+10 Mar 2025 11:22:57,304 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:22:57,304 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6253c26)
+10 Mar 2025 11:22:57,304 ERROR CarsDBRepository 65 findBetweenYears - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: spectacole.db)
+10 Mar 2025 11:22:57,304 TRACE CarsDBRepository 68 findBetweenYears - Exit with([])
+10 Mar 2025 11:27:18,510 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:\2025_1\UBB\MPP\spectacole.db} 
+10 Mar 2025 11:27:18,519 TRACE CarsDBRepository 74 add - Enter add - saving taskId=0 Mercedes CLS 2023
+10 Mar 2025 11:27:18,519 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:27:18,519 TRACE JdbcUtils 23 getNewConnection - Enter
+10 Mar 2025 11:27:18,519 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\2025_1\UBB\MPP\spectacole.db
+10 Mar 2025 11:27:18,519 INFO  JdbcUtils 29 getNewConnection - user: null
+10 Mar 2025 11:27:18,520 INFO  JdbcUtils 30 getNewConnection - pass: null
+10 Mar 2025 11:27:18,654 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@82de64a)
+10 Mar 2025 11:27:18,664 TRACE CarsDBRepository 81 add - Exit Saved 1 instances
+10 Mar 2025 11:27:18,665 TRACE CarsDBRepository 86 add - Exit
+10 Mar 2025 11:27:18,666 TRACE CarsDBRepository 91 update - Enter update - updating car with id 1
+10 Mar 2025 11:27:18,666 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:27:18,666 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@82de64a)
+10 Mar 2025 11:27:18,671 TRACE CarsDBRepository 100 update - Exit Updated 1 instances
+10 Mar 2025 11:27:18,671 TRACE CarsDBRepository 109 findAll - Enter
+10 Mar 2025 11:27:18,671 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:27:18,672 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@82de64a)
+10 Mar 2025 11:27:18,674 TRACE CarsDBRepository 128 findAll - Exit with([Id=1 Opel Astra 2011, Id=2 Hyunday Tucson 2023, Id=3 Hyunday Texas 2024, Id=4 Mercedes CLS 2023])
+10 Mar 2025 11:27:18,675 TRACE CarsDBRepository 49 findBetweenYears - Enter
+10 Mar 2025 11:27:18,675 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:27:18,675 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@82de64a)
+10 Mar 2025 11:27:18,677 ERROR CarsDBRepository 65 findBetweenYears - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: car)
+10 Mar 2025 11:27:18,677 TRACE CarsDBRepository 68 findBetweenYears - Exit with([])
+10 Mar 2025 11:29:42,026 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:\2025_1\UBB\MPP\spectacole.db} 
+10 Mar 2025 11:29:42,035 TRACE CarsDBRepository 74 add - Enter add - saving taskId=0 Mercedes CLS 2023
+10 Mar 2025 11:29:42,036 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:29:42,036 TRACE JdbcUtils 23 getNewConnection - Enter
+10 Mar 2025 11:29:42,036 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\2025_1\UBB\MPP\spectacole.db
+10 Mar 2025 11:29:42,036 INFO  JdbcUtils 29 getNewConnection - user: null
+10 Mar 2025 11:29:42,036 INFO  JdbcUtils 30 getNewConnection - pass: null
+10 Mar 2025 11:29:42,237 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@82de64a)
+10 Mar 2025 11:29:42,325 TRACE CarsDBRepository 81 add - Exit Saved 1 instances
+10 Mar 2025 11:29:42,327 TRACE CarsDBRepository 86 add - Exit
+10 Mar 2025 11:29:42,328 TRACE CarsDBRepository 91 update - Enter update - updating car with id 1
+10 Mar 2025 11:29:42,329 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:29:42,329 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@82de64a)
+10 Mar 2025 11:29:42,330 TRACE CarsDBRepository 100 update - Exit Updated 1 instances
+10 Mar 2025 11:29:42,331 TRACE CarsDBRepository 109 findAll - Enter
+10 Mar 2025 11:29:42,332 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:29:42,332 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@82de64a)
+10 Mar 2025 11:29:42,339 TRACE CarsDBRepository 128 findAll - Exit with([Id=1 Opel Astra 2011, Id=2 Hyunday Tucson 2023, Id=3 Hyunday Texas 2024, Id=4 Mercedes CLS 2023, Id=5 Mercedes CLS 2023])
+10 Mar 2025 11:29:42,340 TRACE CarsDBRepository 49 findBetweenYears - Enter
+10 Mar 2025 11:29:42,340 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:29:42,340 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@82de64a)
+10 Mar 2025 11:29:42,347 ERROR CarsDBRepository 65 findBetweenYears - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: car)
+10 Mar 2025 11:29:42,348 TRACE CarsDBRepository 68 findBetweenYears - Exit with([])
+10 Mar 2025 11:32:22,094 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:\2025_1\UBB\MPP\spectacole.db} 
+10 Mar 2025 11:32:22,109 TRACE CarsDBRepository 74 add - Enter add - saving taskId=0 Mercedes CLS 2023
+10 Mar 2025 11:32:22,109 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:32:22,110 TRACE JdbcUtils 23 getNewConnection - Enter
+10 Mar 2025 11:32:22,110 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\2025_1\UBB\MPP\spectacole.db
+10 Mar 2025 11:32:22,110 INFO  JdbcUtils 29 getNewConnection - user: null
+10 Mar 2025 11:32:22,110 INFO  JdbcUtils 30 getNewConnection - pass: null
+10 Mar 2025 11:32:22,244 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@82de64a)
+10 Mar 2025 11:32:22,253 TRACE CarsDBRepository 81 add - Exit Saved 1 instances
+10 Mar 2025 11:32:22,254 TRACE CarsDBRepository 86 add - Exit
+10 Mar 2025 11:32:22,254 TRACE CarsDBRepository 91 update - Enter update - updating car with id 1
+10 Mar 2025 11:32:22,255 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:32:22,255 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@82de64a)
+10 Mar 2025 11:32:22,256 TRACE CarsDBRepository 100 update - Exit Updated 1 instances
+10 Mar 2025 11:32:22,256 TRACE CarsDBRepository 109 findAll - Enter
+10 Mar 2025 11:32:22,256 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:32:22,256 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@82de64a)
+10 Mar 2025 11:32:22,259 TRACE CarsDBRepository 128 findAll - Exit with([Id=1 Opel Astra 2011, Id=2 Hyunday Tucson 2023, Id=3 Hyunday Texas 2024, Id=4 Mercedes CLS 2023, Id=5 Mercedes CLS 2023, Id=6 Mercedes CLS 2023])
+10 Mar 2025 11:32:22,259 TRACE CarsDBRepository 49 findBetweenYears - Enter
+10 Mar 2025 11:32:22,260 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:32:22,260 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@82de64a)
+10 Mar 2025 11:32:22,260 TRACE CarsDBRepository 68 findBetweenYears - Exit with([])
+10 Mar 2025 11:32:30,032 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:\2025_1\UBB\MPP\spectacole.db} 
+10 Mar 2025 11:32:30,041 TRACE CarsDBRepository 74 add - Enter add - saving taskId=0 Mercedes CLS 2023
+10 Mar 2025 11:32:30,041 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:32:30,041 TRACE JdbcUtils 23 getNewConnection - Enter
+10 Mar 2025 11:32:30,041 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\2025_1\UBB\MPP\spectacole.db
+10 Mar 2025 11:32:30,041 INFO  JdbcUtils 29 getNewConnection - user: null
+10 Mar 2025 11:32:30,042 INFO  JdbcUtils 30 getNewConnection - pass: null
+10 Mar 2025 11:32:30,225 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@82de64a)
+10 Mar 2025 11:32:30,242 TRACE CarsDBRepository 81 add - Exit Saved 1 instances
+10 Mar 2025 11:32:30,243 TRACE CarsDBRepository 86 add - Exit
+10 Mar 2025 11:32:30,244 TRACE CarsDBRepository 91 update - Enter update - updating car with id 1
+10 Mar 2025 11:32:30,245 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:32:30,245 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@82de64a)
+10 Mar 2025 11:32:30,246 TRACE CarsDBRepository 100 update - Exit Updated 1 instances
+10 Mar 2025 11:32:30,246 TRACE CarsDBRepository 109 findAll - Enter
+10 Mar 2025 11:32:30,247 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:32:30,247 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@82de64a)
+10 Mar 2025 11:32:30,250 TRACE CarsDBRepository 128 findAll - Exit with([Id=1 Opel Astra 2011, Id=2 Hyunday Tucson 2023, Id=3 Hyunday Texas 2024, Id=4 Mercedes CLS 2023, Id=5 Mercedes CLS 2023, Id=6 Mercedes CLS 2023, Id=7 Mercedes CLS 2023])
+10 Mar 2025 11:32:30,251 TRACE CarsDBRepository 49 findBetweenYears - Enter
+10 Mar 2025 11:32:30,252 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:32:30,252 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@82de64a)
+10 Mar 2025 11:32:30,252 TRACE CarsDBRepository 68 findBetweenYears - Exit with([])
+10 Mar 2025 11:34:31,356 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:\2025_1\UBB\MPP\spectacole.db} 
+10 Mar 2025 11:34:31,365 TRACE CarsDBRepository 74 add - Enter add - saving taskId=0 Mercedes CLS 2023
+10 Mar 2025 11:34:31,365 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:34:31,366 TRACE JdbcUtils 23 getNewConnection - Enter
+10 Mar 2025 11:34:31,366 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\2025_1\UBB\MPP\spectacole.db
+10 Mar 2025 11:34:31,366 INFO  JdbcUtils 29 getNewConnection - user: null
+10 Mar 2025 11:34:31,366 INFO  JdbcUtils 30 getNewConnection - pass: null
+10 Mar 2025 11:34:31,546 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@82de64a)
+10 Mar 2025 11:34:31,559 TRACE CarsDBRepository 81 add - Exit Saved 1 instances
+10 Mar 2025 11:34:31,559 TRACE CarsDBRepository 86 add - Exit
+10 Mar 2025 11:34:31,560 TRACE CarsDBRepository 91 update - Enter update - updating car with id 1
+10 Mar 2025 11:34:31,560 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:34:31,560 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@82de64a)
+10 Mar 2025 11:34:31,560 TRACE CarsDBRepository 100 update - Exit Updated 1 instances
+10 Mar 2025 11:34:31,561 TRACE CarsDBRepository 109 findAll - Enter
+10 Mar 2025 11:34:31,561 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:34:31,561 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@82de64a)
+10 Mar 2025 11:34:31,564 TRACE CarsDBRepository 128 findAll - Exit with([Id=1 Opel Astra 2011, Id=2 Hyunday Tucson 2023, Id=3 Hyunday Texas 2024, Id=4 Mercedes CLS 2023, Id=5 Mercedes CLS 2023, Id=6 Mercedes CLS 2023, Id=7 Mercedes CLS 2023, Id=8 Mercedes CLS 2023])
+10 Mar 2025 11:34:31,569 TRACE CarsDBRepository 49 findBetweenYears - Enter
+10 Mar 2025 11:34:31,570 TRACE JdbcUtils 46 getConnection - Enter
+10 Mar 2025 11:34:31,570 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@82de64a)
+10 Mar 2025 11:34:31,571 TRACE CarsDBRepository 68 findBetweenYears - Exit with([])
